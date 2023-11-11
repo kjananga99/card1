@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 190px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('./image/event-photography-8.jpg');
+}
+
+.car-2 {
+    background-image: url('./image/istockphoto-974238866-612x612.jpg');
+}
+
+.car-3 {
+    background-image: url('./image/pexels-teddy-yang-2263436.jpg');
+}
